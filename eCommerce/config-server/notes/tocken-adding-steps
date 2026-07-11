@@ -1,0 +1,24 @@
+Note:
+To generate a GitHub Personal Access Token (Fine-grained):
+
+1. Go to GitHub.
+2. Click on your Profile icon (top-right corner).
+3. Select Settings.
+4. In the left sidebar, click Developer settings.
+5. Click Personal access tokens.
+6. Select Fine-grained tokens.
+7. Click Generate new token.
+8. Enter a Token name and choose the Expiration date.
+9. Under Repository access, select:
+   - Only select repositories, then choose the repository you want to access (e.g., config-server), or
+   - Select All repositories if the token should work for every repository in your GitHub account.
+10. Under Repository permissions:
+    - Contents → Read and Write
+11. Under Administrative permissions:
+    - Administration → Read-only
+12. Review the selected permissions.
+13. Click Generate token.
+14. Copy the generated token immediately and store it in a safe place (GitHub will not display it again).
+
+Shortcut:
+GitHub → Profile → Settings → Developer settings → Personal access tokens → Fine-grained tokens → Generate new token

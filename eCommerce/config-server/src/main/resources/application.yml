@@ -1,0 +1,19 @@
+spring.application.name: config-server
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/callmepathak/Microservices-ecommerce-config-server-Localhost
+          username: callmepathak
+          password: ${GITHUB_TOKEN}
+          default-label: main
+server:
+  port: 8888
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+
+
